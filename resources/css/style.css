@@ -1,0 +1,183 @@
+body {
+  display: flex;
+  background-color: black;
+  font-family: Helvetica;
+  color: seashell;
+  font-size: 22px;
+  opacity: 0.9;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 0px;
+}
+
+
+header {
+display: flex;
+justify-content: space-between;
+z-index: 100;
+border-bottom: 1px solid seashell;
+height: 69px;
+margin-right: 20px;
+width: 100%;
+position: fixed;
+background-color: black;
+}
+
+.logo {
+display: flex;
+align-items: center;
+flex-wrap: wrap;
+}
+
+img {
+  padding-left: 10px;
+  height: 50px;
+}
+
+  header.logo span {
+  margin-left: 10px;
+}
+
+nav {
+display: flex;
+flex-flow: row wrap;
+justify-content: flex-end;
+align-items: center;
+
+}
+nav span a {
+  padding: 10px;
+  color: seashell;
+}
+
+.container {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  padding-top: 70px;
+}
+
+.missionsection {
+  background-image:url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  height: 700px;
+  width: 1200px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.missionbackground {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  background-color: black;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+  color: seashell;
+  height:104px;
+  width: 1200px;
+  z-index: 1;
+}
+
+.missiontext {
+
+}
+
+.teasection {
+  display: flex;
+  flex-flow: column wrap;
+  width: 1000px;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.tearows {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  justify-content: center;
+}
+
+.tearows img {
+  height: 200px;
+  width: 300px;
+  margin: 0px;
+}
+
+.caption {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+}
+
+.caption h4 {
+  margin-top: 10px;
+}
+
+.locationsection {
+  background-image:url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  height: 500px;
+  width: 1200px;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  margin-top: 15px;
+}
+
+.locationsection h2 {
+  margin-bottom: 15px;
+}
+.locations {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  justify-content: center;
+}
+
+.locationbox {
+  height: auto;
+  width: 300px;
+  background-color: black;
+  text-align: center;
+  margin: 0px 20px 0px 20px;
+  opacity: 1;
+}
+
+.h4bold {
+  font-weight: bold;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+
+}
+
+.footertext {
+  color: seashell;
+  padding: 0px;
+  margin-top: 5px;
+  text-align: center;
+}
+
+.footercontact {
+  padding-top: 2px;
+}
+
+.copyright {
+  display: flex;
+  justify-content: flex-start;
+  color: seashell;
+  padding: 20px;
+}
