@@ -51,11 +51,10 @@ nav span a {
 }
 
 .container {
-  display: flex;
+  display: block;
   flex-flow: column wrap;
   justify-content: center;
   align-items: center;
-  padding-top: 70px;
 }
 
 .missionsection {
@@ -65,6 +64,8 @@ nav span a {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
+  position: relative;
+  top: 70px;
 }
 
 .missionbackground {
@@ -83,20 +84,27 @@ nav span a {
 }
 
 .missiontext {
-
+  text-align: center;
 }
+
 
 .teasection {
   display: flex;
   flex-flow: column wrap;
-  width: 1000px;
+  width: 1200px;
   height: auto;
   align-items: center;
   justify-content: center;
+  position: relative;
+  top: 70px;
+}
+.teatext {
+  text-align: center;
 }
 
 .tearows {
   display: flex;
+  width: 1000px;
   flex-wrap: wrap;
   align-content: space-between;
   justify-content: center;
@@ -106,6 +114,7 @@ nav span a {
   height: 200px;
   width: 300px;
   margin: 0px;
+  padding: 0px 16.5px 0px 16.5px;
 }
 
 .caption {
@@ -129,6 +138,8 @@ nav span a {
   margin-bottom: 0px;
   padding-bottom: 0px;
   margin-top: 15px;
+  position: relative;
+  top: 70px;
 }
 
 .locationsection h2 {
